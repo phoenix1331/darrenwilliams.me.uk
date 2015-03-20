@@ -1,6 +1,11 @@
 
 [data-sr] { visibility: hidden; } 
 
+img{
+	max-width:100% !important;
+	min-width:100% !important;
+}
+
 .center{
 	text-align:center;
 }
@@ -46,22 +51,26 @@ a.navbar-brand{
 	background:#dedecd;
 	clear:both;
 	margin:150px 0 0 0;
-	padding:80px 0;
+	padding:60px 0;
 	border-top:1px solid #fff;
-}
-
-#intro{
 	font-size:36px;
 	line-height:36px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	color:#555;
 }
 
-#intro .intro-text-title{
+.intro-icon{
+	width:100px;
+	height:100px;
+	border-radius:50px;
+	margin:0 auto 20px auto;
+}
+
+.intro-text-title{
 
 }
 
-#intro .intro-text-copy{
+.intro-text-copy{
 	width:70%;
 	margin:0 auto;
 	font-size:24px;
