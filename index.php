@@ -24,8 +24,8 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    
-      <video id="hero" poster="http://placehold.it/350x150" loop autoplay muted >
+
+      <video id="hero" poster="http://placehold.it/1899x900" loop autoplay muted >
        <!-- <source src="video/vid2.mp4" type="video/mp4">-->
       </video>
     <div class="container">
@@ -42,7 +42,8 @@
     </div> <!-- /container -->
 
     <div id="intro">
-      <div class="center intro-text">Hi, I'm Darren Williams and I'm a Web Developer <br />from Newport, Wales</div>
+      <p class="center intro-text-title">Web Developer</p>
+      <p class="center intro-text-copy">A Web Developer with 7 years experience of PHP development. Creating a wide range of web based solutions for businesses Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione tempora sapiente at totam cum odit impedit quisquam illo, quibusdam doloremque corporis illum, soluta eius saepe, nemo, nulla dolore. Minima, similique!</p>
     </div>
     <div id="main">
        <div class="container center">

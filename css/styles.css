@@ -50,10 +50,21 @@ a.navbar-brand{
 	border-top:1px solid #fff;
 }
 
-#intro .intro-text{
+#intro{
 	font-size:36px;
 	line-height:36px;
 	font-family: 'Open Sans Condensed', sans-serif;
+	color:#555;
+}
+
+#intro .intro-text-title{
+
+}
+
+#intro .intro-text-copy{
+	width:70%;
+	margin:0 auto;
+	font-size:24px;
 }
 
 #central{
