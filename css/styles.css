@@ -7,6 +7,23 @@
 
 .navbar{
 	padding:30px 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar-default.navbar ul li{
+	font-size:18px;
+	color:#888;
+	border-left:1px dotted #e1e1e1;
+	font-size:22px;
+}
+
+.navbar-default.navbar ul li:first-child{
+	border-left:none;
+}
+
+a.navbar-brand{
+	font-size:24px;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #hero{
@@ -34,8 +51,8 @@
 }
 
 #intro .intro-text{
-	font-size:32px;
-	line-height:32px;
+	font-size:36px;
+	line-height:36px;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -49,7 +66,8 @@
 
 .jumbotron{
 	margin:250px 0 0 0;
-	background:rgba(255, 255, 255, 0.4);
+	background:rgba(255, 255, 255, 0.0);
+	height:400px;
 }
 
 /*Footer*/
