@@ -25,9 +25,6 @@
       </div>
     </nav>
 
-      <video id="hero" poster="http://placehold.it/1899x900" loop autoplay muted >
-       <!-- <source src="video/vid2.mp4" type="video/mp4">-->
-      </video>
     <div class="container">
 
       <div class="jumbotron">
