@@ -42,7 +42,6 @@ a.navbar-brand{
 	line-height:39px;
 	background:#dedecd;
 	clear:both;
-	margin:150px 0 0 0;
 	padding:60px 0;
 	border-top:1px solid #fff;
 	font-size:36px;
@@ -76,11 +75,28 @@ a.navbar-brand{
 	margin:30px 0 50px;
 }
 
-.jumbotron{
-	margin:250px 0 0 0;
-	background:rgba(255, 255, 255, 0.0);
-	height:400px;
+.jumbotron-wrap{
+	width:100%;
+	margin:111px 0 0 0;
+	position:relative;
 }
+
+.jumbotron{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	padding:0 5%;
+	background:rgba(255, 255, 255, 0.4);
+	width:60%;
+	height:40%;
+}
+
+
+
+
 
 /*Footer*/
 
