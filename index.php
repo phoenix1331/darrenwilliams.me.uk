@@ -39,54 +39,49 @@
 
 
     <div id="intro">
-    <div class="intro-icon"><img src="images/computer-icon.png" alt="Computer icon" /></div>
-      <p class="center intro-text-title">Web Developer</p>
-      <p class="center intro-text-copy">A Web Developer with 7 years experience of PHP development. Creating a wide range of web based solutions for businesses Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione tempora sapiente at totam cum odit impedit quisquam illo, quibusdam doloremque corporis illum, soluta eius saepe, nemo, nulla dolore. Minima, similique!</p>
+      <div class="container center">
+      <div class="intro-icon"><img src="images/computer-icon.png" alt="Computer icon" /></div>
+        <p class="center intro-text-title">Web Developer</p>
+        <p class="center intro-text-copy">A Web Developer with 7 years experience of PHP development. Creating a wide range of web based solutions for businesses Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione tempora sapiente at totam cum odit impedit quisquam illo, quibusdam doloremque corporis illum, soluta eius saepe, nemo, nulla dolore. Minima, similique!</p>
+      </div>
     </div>
+
     <div id="main">
-       <div class="container center">
+   
+       <!-- <div id="central"></div> -->
+      <div class="container center">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="http://placehold.it/350x150">
+              <h2>Heading</h2>
+              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+
+            </div><!-- /.col-lg-6 -->
+            <div class="col-lg-6">
+              <img src="http://placehold.it/350x150">
+              <h2>Heading</h2>
+              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+
+            </div><!-- /.col-lg-6 -->
+                <div class="container center">
           <div class="row" data-sr="enter left">
             <div class="col-lg-4">
               <img src="http://placehold.it/350x150">
               <h2>Heading</h2>
               <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img src="http://placehold.it/350x150">
-              <h2>Heading</h2>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img src="http://placehold.it/350x150">
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-        </div>
-      </div>
-       <div id="central"></div>
-      <div class="container center">
-          <div class="row">
             <div class="col-lg-4">
               <img src="http://placehold.it/350x150">
               <h2>Heading</h2>
               <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
               <img src="http://placehold.it/350x150">
               <h2>Heading</h2>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
             </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <img src="http://placehold.it/350x150">
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
+        </div>
+      </div>
       </div>
     </div>
     </div><!--close main-->

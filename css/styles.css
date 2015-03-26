@@ -31,6 +31,24 @@ a.navbar-brand{
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.jumbotron-wrap{
+	width:100%;
+	margin:111px 0 0 0;
+	padding:10em 0;
+	background:url('../images/jumbo.jpg');
+	background-size:auto;
+	background-repeat:no-repeat;
+	text-align:center;
+}
+
+.jumbotron{
+	margin:auto;
+	padding:3em;
+	color:#fff;
+	background:rgba(255, 255, 255, 0.1);
+	display:inline-block;
+}
+
 #main{
 	width:100%;
 	background:#fff;
@@ -62,34 +80,18 @@ a.navbar-brand{
 }
 
 .intro-text-copy{
-	width:70%;
-	margin:0 auto;
 	font-size:24px;
 }
 
 #central{
 	width:100%;
 	height:400px;
-	background:#dedecd;
+	background:url('../images/bg.jpg');
 	clear:both;
 	margin:30px 0 50px;
 }
 
-.jumbotron-wrap{
-	width:100%;
-	margin:111px 0 0 0;
-	padding:10em 0;
-	background:url('../images/jumbo.jpg');
-	text-align:center;
-}
 
-.jumbotron{
-	margin:auto;
-	padding:5%;
-	color:#fff;
-	background:rgba(255, 255, 255, 0.1);
-	display:inline-block;
-}
 
 
 
@@ -99,6 +101,7 @@ a.navbar-brand{
 
 footer{
 	width:100%;
-	background:#e1e4b3;
+	min-height:200px;
+	background:#dedecd;
 	clear:both;
 }
