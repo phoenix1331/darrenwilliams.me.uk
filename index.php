@@ -27,11 +27,10 @@
 
     
 <div class="jumbotron-wrap">
-<img src="images/jumbo.jpg" alt="Jumbotron Background" />
       <div class="jumbotron">
         <h1 class="center">Navbar example</h1>
-        <p class="center">This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p class="center">To see the difference between static and fixed top navbars, just scroll.</p>
+        <p class="center">This example is a quick exercise to illustrate .</p>
+        <p class="center">To see the difference between static </p>
         <p class="center">
           <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
         </p>
