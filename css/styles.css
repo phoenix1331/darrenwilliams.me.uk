@@ -10,6 +10,11 @@ img{
 	text-align:center;
 }
 
+.col-lg-4{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
 .navbar{
 	padding:30px 0;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -88,7 +93,7 @@ a.navbar-brand{
 	height:400px;
 	background:url('../images/bg.jpg');
 	clear:both;
-	margin:30px 0 50px;
+	margin:50px 0;
 }
 
 

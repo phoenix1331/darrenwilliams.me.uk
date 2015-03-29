@@ -48,22 +48,9 @@
 
     <div id="main">
    
-       <!-- <div id="central"></div> -->
-      <div class="container center">
-          <div class="row">
-            <div class="col-lg-6">
-              <img src="http://placehold.it/350x150">
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-
-            </div><!-- /.col-lg-6 -->
-            <div class="col-lg-6">
-              <img src="http://placehold.it/350x150">
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-
-            </div><!-- /.col-lg-6 -->
-                <div class="container center">
+       
+    
+       <div class="container center">
           <div class="row" data-sr="enter left">
             <div class="col-lg-4">
               <img src="http://placehold.it/350x150">
@@ -82,8 +69,59 @@
             </div><!-- /.col-lg-4 -->
         </div>
       </div>
+
+      <div id="central"></div>
+
+        <div class="container center">
+          <div class="row" data-sr="enter left">
+            <div class="col-lg-4">
+              <img src="http://placehold.it/350x150">
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img src="http://placehold.it/350x150">
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img src="http://placehold.it/350x150">
+            </div><!-- /.col-lg-4 -->
+        </div>
+        </div>
+
+        <div class="container center">
+          <div class="row" data-sr="enter left">
+            <div class="col-lg-4">
+              <img src="http://placehold.it/350x150">
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img src="http://placehold.it/350x150">
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img src="http://placehold.it/350x150">
+            </div><!-- /.col-lg-4 -->
+          </div>
+        </div>
+        <div id="central">
+          <div class="container center">
+              <h2>Current Project</h2>
+          </div>
+        </div>
+
+      <div class="container center">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="http://placehold.it/350x150">
+              <h2>Heading</h2>
+              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+
+            </div><!-- /.col-lg-6 -->
+            <div class="col-lg-6">
+              <img src="http://placehold.it/350x150">
+              <h2>Heading</h2>
+              <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+              </div>
+            </div><!-- /.col-lg-6 -->
+        </div>
       </div>
-    </div>
+
     </div><!--close main-->
 
 <?php include('includes/footer.php'); ?>
