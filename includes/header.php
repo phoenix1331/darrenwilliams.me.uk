@@ -11,60 +11,21 @@
     <title>Darren Williams | Web Developer</title>
 
     <!--Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<!--     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http//fonts.googleapis.com/css?family=Source+Sans+Pro:300"> -->
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="http://www.darrenwilliams.me.uk/darren/css/bootstrap.css" rel="stylesheet">
     <!--Custom Styles-->
-    <link href="css/styles.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="navbar-fixed-top.css" rel="stylesheet">
+    <link href="http://www.darrenwilliams.me.uk/darren/css/styles.css" rel="stylesheet">
+    <!-- Jquery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-<script>
-  // Hide Header on on scroll down
-  var didScroll;
-  var lastScrollTop = 0;
-  var delta = 2;
-  var navbarHeight = $('nav').outerHeight();
 
-  $(window).scroll(function(event){
-      didScroll = true;
-  });
-
-  setInterval(function() {
-      if (didScroll) {
-          hasScrolled();
-          didScroll = false;
-      }
-  }, 250);
-
-  function hasScrolled() {
-      var st = $(this).scrollTop();
-      
-      // Make sure they scroll more than delta
-      if(Math.abs(lastScrollTop - st) <= delta)
-          return;
-      
-      // If they scrolled down and are past the navbar, add class .nav-up.
-      // This is necessary so you never see what is "behind" the navbar.
-      if (st > lastScrollTop && st > navbarHeight){
-          // Scroll Down
-          $('nav').removeClass('nav-down').addClass('nav-up');
-      } else {
-          // Scroll Up
-          if(st + $(window).height() < $(document).height()) {
-              $('nav').removeClass('nav-up').addClass('nav-down');
-          }
-      }
-      
-      lastScrollTop = st;
-  }
-</script> 
   </head>
 
   <body>
@@ -79,7 +40,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Darren Williams</a>
+          <a class="navbar-brand" href="#"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
